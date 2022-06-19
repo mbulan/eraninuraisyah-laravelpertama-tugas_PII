@@ -8,8 +8,8 @@
       @csrf
       @method('PUT')
       <div class="mb-3">
-        <label for="name" class="form-label">Name</label>
-        <input type="text" class="form-control" id="name" name="name" value="{{ old('name') ? old('name') : $group['name'] }}">
+        <label for="nama" class="form-label">Name</label>
+        <input type="text" class="form-control" id="nama" name="nama" value="{{ old('name') ? old('nama') : $group['nama'] }}">
         @error('name')
         <div class="alert alert-danger">{{ $message }}</div>
       @enderror
